@@ -1,1 +1,0 @@
-# joshadelic.github.io
