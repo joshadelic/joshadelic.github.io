@@ -32,19 +32,22 @@
         <div class="container">
             <div class="row row-flex">
                 <div class="col-sm-6 col-md-5 col-lg-4">
-                    <h1>Joshua Boehringer</h1>
-                    <address>
-                        125 Overlook Drive<br>
-                        Holliston, MA 01746<br>
-                        <a href="tel:5083098084" target="_blank">508.309.8084</a><br>
-                        <a href="mailto:joshadelic@gmail.com" target="_blank">joshadelic@gmail.com</a><br>
-                        <a href="https://www.linkedin.com/in/joshadelic/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/joshadelic/</a>
+                    <h1><span itemprop="name">Joshua Boehringer</span></h1>
+                    <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                        <span itemprop="streetAddress">
+                            125 Overlook Drive<br>
+                        </span>
+                        <span itemprop="addressLocality">Holliston</span>, <span itemprop="addressRegion">MA</span> <span itemprop="postalCode">01746</span><br>
+                        Mobile: <a href="tel:5083098084" target="_blank" rel="noopener noreferrer" itemprop="telephone">508.309.8084</a><br>
+                        Email: <a href="mailto:joshadelic@gmail.com" target="_blank" rel="noopener noreferrer" itemprop="email">joshadelic@gmail.com</a><br>
+                        Resume: <a href="https://joshadelic.github.io/" target="_blank" rel="me" itemprop="url">https://joshadelic.github.io/</a><br>
+                        LinkedIn: <a href="https://www.linkedin.com/in/joshadelic/" target="_blank" rel="me" itemprop="url">https://www.linkedin.com/in/joshadelic/</a>
                     </address>
                 </div>
                 <div class="col-sm-6 col-md-7 col-lg-8">
                     <div class="page-header text-center">
-                        <h3 class="text-uppercase">Front End Web Developer</h3>
-                        <h4>Specializing in real, hand-crafted <br>HTML, CSS &amp; JavaScript</h4>
+                        <h3 class="text-uppercase"><span itemprop="jobTitle">Front End Web Developer</span></h3>
+                        <h4><span itemprop="knowsAbout">Specializing in real, hand-crafted <br>HTML, CSS &amp; JavaScript</span></h4>
                     </div>
                 </div>
             </div>
@@ -55,8 +58,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <h3>Skills <small>(a.k.a. keywords for your resume search gizmo)</small></h3>
-                    <ul class="list-inline list-separated">
+                    <h3 itemprop="name">Skills <small>(a.k.a. keywords for your resume search gizmo)</small></h3>
+                    <ul class="list-inline list-separated" itemprop="knowsAbout">
                         <li>HTML</li>
                         <li>HTML5</li>
                         <li>PHP</li>
@@ -92,7 +95,7 @@
                         <li>Responsive Design</li>
                         <li>Web Fonts &amp; Typography</li>
                         <li>Bulma</li>
-                        <li>Twitter Bootstrap 3 & 4</li>
+                        <li>Twitter Bootstrap 3 &amp; 4</li>
                         <li>Zurb Foundation</li>
                         <li>Adobe Photoshop and PSD files</li>
                         <li>Adobe Illustrator</li>
@@ -102,18 +105,32 @@
                     <hr>
 
                     <h3>Education</h3>
-                    <h5>Bunker Hill Community College <small>Charlestown, MA</small></h5>
-                    <p>
-                        AS: Information Technology<br>
-                        Magna cum laude &mdash; GPA: 3.89<br>
-                        <small>(2009-2012)</small>
-                    </p>
-
-                    <h5>Pennsylvania State University <small>University Park, PA</small></h5>
-                    <p>
-                        Liberal Arts<br>
-                        <small>(1997-1998)</small>
-                    </p>
+                    <span itemscope itemtype="http://schema.org/EducationalOrganization">
+                        <h5>
+                            <span itemprop="name">Bunker Hill Community College</span> 
+                            <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                <small><span itemprop="addressLocality">Charlestown</span>, <span itemprop="addressRegion">MA</small>
+                            </span>
+                        </h5>
+                        <p>
+                            AS: Information Technology<br>
+                            Magna cum laude &mdash; GPA: 3.89<br>
+                            <small>(2009-2012)</small>
+                        </p>
+                    </span>
+                    
+                    <span itemscope itemtype="http://schema.org/EducationalOrganization">
+                        <h5>
+                            <span itemprop="name">Pennsylvania State University</span> 
+                            <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                <small><span itemprop="addressLocality">University Park</span>, <span itemprop="addressRegion">PA</span></small>
+                            </span>
+                        </h5>
+                        <p>
+                            Liberal Arts<br>
+                            <small>(1997-1998)</small>
+                        </p>
+                    </span>
 
                     <hr>
 
@@ -162,7 +179,7 @@
                     <ul class="list-unstyled">
                         <li>The majority of my time at Rightpoint was dedicated to launching the new Samuel Adams website. I was part of a large team, working on a very high budget project that the client was extremely pleased with at launch.
                             <br>
-                            URL:  <a href="https://www.samueladams.com/" rel="noopener noreferrer" target="_blank">https://www.samueladams.com/</a>
+                            URL:  <a href="https://www.samueladams.com/" target="_blank" rel="noopener noreferrer">https://www.samueladams.com/</a>
                         </li>
                     </ul>
 
